@@ -35,7 +35,7 @@ jobs:
           nohup flask run > flask.log 2>&1 &
 
       - name: checkout test repo
-        run: git clone https://github.com/LuisAlejandroRe/todoism-test.git
+        run: git clone https://github.com/MateoEcheverriPelaez/todoism-test.git
 
       - name: Setup Node
         uses: actions/setup-node@v4
